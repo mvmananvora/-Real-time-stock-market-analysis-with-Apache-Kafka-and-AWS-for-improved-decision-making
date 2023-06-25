@@ -17,3 +17,5 @@ Project Workflow
 3. Data Integration: AWS Glue is utilized to create a crawler that automatically discovers the stock market data files in the S3 bucket. The crawler catalogs the files, their schema, and other metadata, enabling easy data querying and analysis.
 4. Data Catalog: AWS Glue's crawler populates the AWS Glue Data Catalog with the stock market data, making it accessible through the catalog's metadata tables. The data is organized and structured based on the discovered schema.
 5. Data Analysis: Amazon Athena is employed to perform SQL-based queries on the stock market data stored in the data lake. Analysts can use SQL statements to retrieve specific data subsets, perform aggregations, and gain valuable insights into stock market trends.
+
+![Architecture](https://github.com/mvmananvora/-Real-time-stock-market-analysis-with-Apache-Kafka-and-AWS-for-improved-decision-making/assets/64776101/62dab3e1-f15c-468e-9252-31e629bb3591)
